@@ -1,0 +1,71 @@
+/* html {height: -webkit-fill-available;} */
+body {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+   background-image:  url(images/pattern-hills.svg), url(images/bg-stars.svg);
+   background-color: hsl(234, 17%, 12%);
+   background-repeat: no-repeat;
+   background-position: bottom, center;
+   font-family: 'Red Hat Text';
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 7px;
+}
+
+.container {
+   height: 100%;
+   display: grid;
+   grid-template-rows: 2fr 4fr;
+   justify-content: stretch;
+   align-items: center;
+}
+
+.header {
+   color: #ffffff;
+   letter-spacing: 10px;
+   font-size: 1.5rem;
+}
+
+.timer {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+.timer__element {
+   margin: 1rem;
+   padding: 1rem;
+}
+
+.timer__time {
+   padding: 20px;
+   font-size: 4rem;
+   color: hsl(345, 95%, 68%);
+   background-color: hsl(236, 21%, 26%);
+   border-radius: 5px;
+   margin-bottom: 0;
+   box-shadow: 0 10px 10px hsl(235, 16%, 9%);
+}
+
+.timer__name {
+   color:hsl(237, 18%, 59%);
+}
+
+.social {
+   color: hsl(237, 18%, 59%);
+   font-size: 1.5rem;
+   justify-self: save;
+   padding: 40px;
+}
+
+.social__icon {
+   padding: 10px;
+}
+
+.social__icon:hover {
+   color: hsl(345, 95%, 68%);
+   cursor: pointer;
+}
