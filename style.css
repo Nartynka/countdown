@@ -1,4 +1,3 @@
-/* html {height: -webkit-fill-available;} */
 body {
    box-sizing: border-box;
    margin: 0;
@@ -56,8 +55,7 @@ body {
 
 .social {
    color: hsl(237, 18%, 59%);
-   font-size: 1.5rem;
-   justify-self: save;
+   font-size: 1.8rem;
    padding: 40px;
 }
 
@@ -68,4 +66,8 @@ body {
 .social__icon:hover {
    color: hsl(345, 95%, 68%);
    cursor: pointer;
+}
+
+a {
+   color: inherit;
 }
