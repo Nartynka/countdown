@@ -37,6 +37,7 @@ body {
 .timer__element {
    margin: 1rem;
    padding: 1rem;
+   width: 140px;
 }
 
 .timer__time {
