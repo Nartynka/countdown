@@ -1,5 +1,5 @@
 setInterval(() => {
-	const end = Date.parse('Jan 15, 2022 23:59:59');
+	const end = Date.parse('Nov 28, 2022 23:59:59');
 	const today = Date.parse(new Date());
 
 	const diff = end - today;
