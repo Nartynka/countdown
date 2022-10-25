@@ -35,6 +35,13 @@ body {
    flex-wrap: wrap;
 }
 
+.header2, .timer2 {
+   color:hsl(237, 18%, 59%);
+   /* text-transform: capitalize; */
+   padding: 5px;
+   letter-spacing: 5px;
+}
+
 .timer__element {
    margin: 1rem;
    padding: 1rem;
